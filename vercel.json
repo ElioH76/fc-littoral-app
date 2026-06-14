@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npx expo export --platform web && node patch-html.mjs",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}

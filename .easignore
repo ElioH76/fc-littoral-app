@@ -1,0 +1,9 @@
+# Fichiers exclus de l'upload EAS Build.
+# NB : .env n'est PAS listé ici → il EST envoyé au build (vars EXPO_PUBLIC_*
+# Supabase, publiques), alors qu'il reste ignoré par git via .gitignore.
+node_modules/
+.git/
+.expo/
+dist/
+web-build/
+*.log
