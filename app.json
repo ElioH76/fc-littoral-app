@@ -4,7 +4,7 @@
     "slug": "fc-littoral",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/app-icon.png",
     "scheme": "fclittoral",
     "userInterfaceStyle": "automatic",
     "ios": {
